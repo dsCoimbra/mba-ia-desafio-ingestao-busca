@@ -1,8 +1,19 @@
 # Desafio MBA Engenharia de Software com IA - Full Cycle
 
+### Requisitos do desafio:
 
+>*Você deve entregar um software capaz de:
+**1. Ingestão**: Ler um arquivo PDF e salvar suas informações em um banco de dados PostgreSQL com extensão pgVector.
+**2. Busca**: Permitir que o usuário faça perguntas via linha de comando (CLI) e receba respostas baseadas apenas no conteúdo do PDF.*
 
-Configure o projeto com os sequintes comandos:
+___
+
+### Requisitos para o projeto:
+
+- Api Key OpenAI
+- Python 3.13
+___
+#### Configuração do projeto:
 
 ##### Criando o ambiente virtual
 ```sh
@@ -19,4 +30,18 @@ pip install -r requirements.txt
 ##### Iniciando o ambiente virtual
 ```sh
 source venv/bin/activate
+```
+
+___
+
+#### Comandos para rodar o projeto
+
+##### Ingestão de documentos
+```sh
+python src/ingest.py
+```
+
+##### Ativar modo chat
+```sh
+python src/chat.py
 ```
