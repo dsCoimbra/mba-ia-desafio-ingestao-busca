@@ -1,5 +1,6 @@
 # Desafio MBA Engenharia de Software com IA - Full Cycle
 
+### Requisitos do desafio:
 
 >*Você deve entregar um software capaz de:
 **1. Ingestão**: Ler um arquivo PDF e salvar suas informações em um banco de dados PostgreSQL com extensão pgVector.
