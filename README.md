@@ -19,14 +19,14 @@ ___
 python3 -m venv venv
 ```
 
-##### Instalando as dependencias
-```sh
-pip install -r requirements.txt
-```
-
 ##### Iniciando o ambiente virtual
 ```sh
 source venv/bin/activate
+```
+
+##### Instalando as dependencias
+```sh
+pip install -r requirements.txt
 ```
 
 ##### Criando banco 
